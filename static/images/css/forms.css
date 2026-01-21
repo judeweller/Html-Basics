@@ -1,0 +1,39 @@
+body{
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    ;
+}
+h2{
+    color: maroon;
+    text-align: center;
+}
+#mycum{
+    border: 1px solid palevioletred;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: wheat;
+    border-radius: 5px;
+}
+input,textarea{
+    border: 1px solid maroon;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+label{
+    font-weight: bold;
+    display: block;
+}
+input[type="submit"]{
+    background-color: brown;
+    color: bisque;
+    margin-top: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: blueviolet;
+    
+}
