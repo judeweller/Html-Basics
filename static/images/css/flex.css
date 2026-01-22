@@ -1,0 +1,26 @@
+body{
+    background-color: beige;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+#container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: bisque;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+.service{
+    border: 2px solid burlywood;
+    background-color: cornsilk;
+    flex: 2;
+}
+/* adding responsives */
+@media(max-width:768px){
+    body{
+        background-color: brown;
+    }
+    #container{
+        flex-direction: column;
+    }
+}
